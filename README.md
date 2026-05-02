@@ -35,8 +35,8 @@ Python GUI projects built during my CodSoft Internship 💻
 ## 💖 Task 2 — Pookie Calculator
 
 <div align="center">
-  <img width="500" src="https://github.com/user-attachments/assets/720b4b9e-9c71-4be6-86cf-19c47893a14f" /> 
-  <img width="500" src="https://github.com/user-attachments/assets/f75016df-e0c0-4aeb-951a-42a9e9def0a7" /> 
+  <img width="250" src="https://github.com/user-attachments/assets/720b4b9e-9c71-4be6-86cf-19c47893a14f" /> 
+  <img width=250" src="https://github.com/user-attachments/assets/f75016df-e0c0-4aeb-951a-42a9e9def0a7" /> 
 </div>
 
 ➡️ [View Project](./Task2-Calculator/)
@@ -46,7 +46,7 @@ Python GUI projects built during my CodSoft Internship 💻
 ## 🦢 Task 3 — SwanCrypt
 
 <div align="center">
-  <img width="997" height="628" alt="image" src="https://github.com/user-attachments/assets/77e9f213-5f95-46ef-9003-ee1c09e74653" />
+  <img width="500" src="https://github.com/user-attachments/assets/77e9f213-5f95-46ef-9003-ee1c09e74653" />
   <img width="500" src="https://github.com/user-attachments/assets/df70f4bd-fdef-40e2-9079-72e112b874e2" />
 </div>
 
