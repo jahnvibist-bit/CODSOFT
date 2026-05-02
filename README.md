@@ -32,7 +32,7 @@ Python GUI projects built during my CodSoft Internship 💻
 
 ---
 
-## 💖 Task 2 — Pookie Calculator (Calcultor)
+## 💖 Task 2 — Pookie Calculator (Calculator)
 
 <div align="center">
   <img width="250" src="https://github.com/user-attachments/assets/720b4b9e-9c71-4be6-86cf-19c47893a14f" /> 
