@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "name": "Viva",
+        "description": "Prep For Oral Examination",
+        "deadline": "30-04-2026",
+        "category": "Learn All The Chapters",
+        "priority": "Medium",
+        "created_date": "30-04-2026",
+        "status": "Pending",
+        "warning": "Overdue"
+    },
+    {
+        "id": 2,
+        "name": "Laundry",
+        "description": "Washing Clothes",
+        "deadline": "30-04-2026",
+        "category": "Personal",
+        "priority": "Low",
+        "created_date": "30-04-2026",
+        "status": "Completed",
+        "warning": "Overdue"
+    },
+    {
+        "id": 3,
+        "name": "Task 3 Project",
+        "description": "To Make Password Generator",
+        "deadline": "06-05-2026",
+        "category": "Coding",
+        "priority": "High",
+        "created_date": "30-04-2026",
+        "status": "Completed",
+        "warning": ""
+    },
+    {
+        "id": 4,
+        "name": "Coding",
+        "description": "To Make Contact Log",
+        "deadline": "20-05-2026",
+        "category": "Coding",
+        "priority": "Medium",
+        "created_date": "26-04-2026",
+        "status": "Completed",
+        "warning": ""
+    },
+    {
+        "id": 5,
+        "name": "Swimming",
+        "description": "Learn New Trick",
+        "deadline": "30-05-2026",
+        "category": "Personal ",
+        "priority": "Medium",
+        "created_date": "26-04-2026",
+        "status": "Completed",
+        "warning": ""
+    },
+    {
+        "id": 6,
+        "name": "Intership Task",
+        "description": "Complete All 3 Task",
+        "deadline": "06-05-2026",
+        "category": "Coding",
+        "priority": "High",
+        "created_date": "02-05-2026",
+        "status": "Completed",
+        "warning": ""
+    }
+]
