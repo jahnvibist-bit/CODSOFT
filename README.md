@@ -55,6 +55,6 @@ Python GUI projects built during my CodSoft Internship 💻
 ---
 
 ## 👩‍💻 About Me
-Jahnvi Anand Bist — Bachelor in Science Computer Application Student, Mulund College of Commerce 🌿
+Jahnvi Anand Bist — Bachelor of Science in Computer Application(BscCA) Student, Mulund College of Commerce 🌿
 
 *Built with 💖 during CodSoft Python Programming Internship*
