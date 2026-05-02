@@ -20,7 +20,7 @@ Python GUI projects built during my CodSoft Internship 💻
 
 ---
 
-## 🍃 Task 1 — Cozy Todo List
+## 🍃 Task 1 — Cozy Todo List (Todo list)
 
 <div align="center">
   <img width="1003" height="634" alt="image" src="https://github.com/user-attachments/assets/52311f9d-41b6-4f56-8234-9b4f650cb4c0" />
@@ -32,7 +32,7 @@ Python GUI projects built during my CodSoft Internship 💻
 
 ---
 
-## 💖 Task 2 — Pookie Calculator
+## 💖 Task 2 — Pookie Calculator (Calcultor)
 
 <div align="center">
   <img width="250" src="https://github.com/user-attachments/assets/720b4b9e-9c71-4be6-86cf-19c47893a14f" /> 
@@ -43,7 +43,7 @@ Python GUI projects built during my CodSoft Internship 💻
 
 ---
 
-## 🦢 Task 3 — SwanCrypt
+## 🦢 Task 3 — SwanCrypt (Password Generator)
 
 <div align="center">
   <img width="500" src="https://github.com/user-attachments/assets/77e9f213-5f95-46ef-9003-ee1c09e74653" />
