@@ -1,28 +1,83 @@
 # 🍃 Cozy Todo List App
 
-A beautiful and functional **GUI-based Todo List application** built with Python and CustomTkinter, developed as part of the **CodSoft Python Programming Internship** (Task 1).
+> Started as a simple terminal app — then upgraded to a full GUI! 💻✨
+
+This project shows my progression from a **command-line Todo app** to a fully featured **GUI application** built with CustomTkinter — same logic, better experience!
 
 ---
 
-## ✨ Features
+## 📁 Versions
 
-- ➕ **Add Tasks** — with name, description, deadline, priority, category, and status
-- 📋 **View All Tasks** — see every task in a clean scrollable card layout
-- ⏳ **Pending Tasks** — filter and view only incomplete tasks
-- 📊 **Dashboard** — highlights tasks due within 2 days or overdue
-- ✏️ **Edit Tasks** — update any task detail on the fly
-- 🗑️ **Delete Tasks** — remove tasks with auto ID reassignment
-- ✔️ **Toggle Status** — mark tasks as Completed / Pending instantly
-- 🔍 **Search Tasks** — find tasks by name in real time
-- ⚠️ **Deadline Warnings** — auto flags tasks as `Overdue` or `Near Deadline`
-- 💾 **Persistent Storage** — all tasks saved to `tasks.json` locally
+| Version | File | Type |
+|---------|------|------|
+| 🖥️ Terminal | `todo_terminal.py` | Command Line |
+| 🎨 GUI | `todogui.py` | CustomTkinter |
+
+---
+
+## 🖥️ Terminal Version
+
+### ✨ Features
+- ➕ **Add Tasks** — name, description, deadline, priority, category, status
+- 🗑️ **Delete Tasks** — confirmation prompt + auto ID reassignment
+- ✏️ **Update Tasks** — update specific fields individually
+- 📋 **View All Tasks** — formatted table view
+- 🔍 **Search Tasks** — find task by name
+- ⏳ **Pending Tasks** — filter incomplete tasks only
+- 📊 **Task Stats** — total, completed and pending count
+- 📅 **Sort by Deadline** — auto sorts tasks by due date
+- ⚠️ **Deadline Warnings** — alerts on startup for overdue tasks
+- 💾 **Persistent Storage** — saved to `tasks.json`
+
+### 🚀 Run Terminal Version
+
+```bash
+python todo_terminal.py
+```
+
+### 💡 How It Works
+
+```
+Startup → load tasks.json → check deadlines → show menu
+```
+
+Number-based menu (1-9) for all operations. Validates all inputs before saving!
+
+---
+
+## 🎨 GUI Version
+
+### ✨ Features
+- ➕ **Add Tasks** — via popup window with calendar date picker
+- 📋 **View All Tasks** — scrollable card layout
+- ⏳ **Pending Tasks** — filter view for incomplete tasks
+- 📊 **Dashboard** — shows only urgent/overdue tasks
+- ✏️ **Edit Tasks** — update any detail on the fly
+- 🗑️ **Delete Tasks** — with auto ID reassignment
+- ✔️ **Toggle Status** — mark Completed / Pending instantly
+- 🔍 **Search Tasks** — real time search by name
+- ⚠️ **Deadline Warnings** — auto flags `Overdue` or `Near Deadline`
+- 💾 **Persistent Storage** — saved to `tasks.json`
 - 📅 **Calendar Date Picker** — powered by `tkcalendar`
 
+### 🚀 Run GUI Version
+
+```bash
+pip install customtkinter tkcalendar
+python todogui.py
+```
+
 ---
 
-## 📸 Preview
+## 🔮 Why I Upgraded to GUI
 
-> Run the app locally to see the full UI!
+After building the terminal version I realised:
+- Terminal apps are hard for non-technical users
+- Deadline tracking needed a **visual dashboard**
+- Cards and scrollable views make tasks easier to manage
+- A floating `+` button is way more fun than typing `1` 😄
+
+So I rebuilt it as a full GUI app — same core logic, completely new experience!
 
 ---
 
@@ -31,28 +86,11 @@ A beautiful and functional **GUI-based Todo List application** built with Python
 | Tool | Purpose |
 |------|---------|
 | Python 3.x | Core language |
-| CustomTkinter | Modern dark-themed GUI |
+| CustomTkinter | GUI framework |
 | tkcalendar | Date picker widget |
 | JSON | Local task storage |
-| datetime | Deadline tracking & sorting |
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-```bash
-pip install customtkinter tkcalendar
-```
-
-### Run the App
-```bash
-python todogui.py
-```
-python todogui.py
-
-> A `tasks.json` file will be created automatically in the same folder on first use.
+| datetime | Deadline tracking |
+| match/case | Terminal menu navigation |
 
 ---
 
@@ -61,8 +99,10 @@ python todogui.py
 ```
 CODSOFT/
 └── Task1-TodoList/
-    ├── todogui.py
-    └── tasks.json
+    ├── todo_terminal.py     
+    ├── todogui.py           
+    ├── tasks.json           
+    └── README.md            
 ```
 
 ---
@@ -83,38 +123,15 @@ CODSOFT/
 
 ---
 
-## 💡 How It Works
-
-1. **Dashboard** loads on startup — shows only urgent/overdue tasks
-2. **Add** a task using the `+` floating button
-3. **Edit or Delete** any task using the card action buttons
-4. **Toggle** completion with the ✔ button on each card
-5. **Search** for any task using the search button in the top bar
-6. Tasks are **auto-sorted by deadline** and saved after every action
-
----
-
-## ⚠️ Known Limitations
-
-- No recurring tasks support
-- Single user only (no multi-profile support)
-- Tasks stored locally — no cloud sync
-
----
-
-## 🔮 Future Improvements
-
-- [ ] Wrap UI into a class-based structure
-- [ ] Add reminder/notification support
-- [ ] Filter by priority or category
-- [ ] Export tasks to CSV or PDF
-- [ ] Add dark/light theme toggle
-
----
-
 ## 👩‍💻 Author
 
 Built with 🍃 as part of the **CodSoft Python Programming Internship**
+
+---
+
+## 📌 Tags
+
+`#codsoft` `#internship` `#python` `#gui` `#terminal` `#customtkinter` `#todoapp` `#tkcalendar`ogramming Internship**
 
 ---
 
